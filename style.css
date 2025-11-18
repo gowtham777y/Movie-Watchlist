@@ -98,3 +98,40 @@ body{
     margin: auto;
     width: fit-content;
 }
+
+.movie  {
+    height: 30vh;
+    padding: 1em;
+    display: flex;
+}
+
+.image{
+    width: 20vw;
+    height: 30vh;
+    background: #000000;
+    margin-right: 1em;
+}
+
+.movie-name{
+    margin: 0;
+}
+
+.movie-info {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    align-items: center;
+}
+
+.movie-info button{
+    background: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.movie-info button:hover{
+    cursor: pointer;
+}
